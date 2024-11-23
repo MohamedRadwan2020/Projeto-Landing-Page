@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    font-family: inter;}
+#DNC-imagin{
+     margin-top: 52px;
+    margin-left: 50px;
+}
+   
+#head-DNC{
+margin-left: 130px;
+margin-top: 50px;
+font-size: 40px;
+}
+
+#paragrf-DNC{
+    margin-left: 130px;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+#background-imagin{
+    width: 1400px;
+    height: 560px;
+
+
+}
+#menusuperior{
+    background-image: url(imagins/backgroundDNC.svg);
+    color: aliceblue;
+
+}
+#menuicons{
+   font-family: inter;
+   background-color: #EAECE5;
+   display: grid;
+   grid-auto-flow: column;
+   columns: auto;
+   padding: 35px;
+}
+.icons{
+    margin: 25px 25px 25px 50px;
+   
+}
+.textoicons{
+   display: flex;
+   align-items: center;
+}
+#Menusecao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#video{
+    margin: 50px 0px 25px 200px;
+}
+#Hvideo{
+    color: #247BA0;
+    margin-top: 100px;
+}
+#Paragrafvideo{
+    color: #383838;
+}
+#Alunotexto{
+    text-align: center;
+    margin-top: 50px;
+    color: #EAECE5;
+    padding: 50px;
+}
+
+#menualunos{
+    background-color: #247BA0;
+padding: 25px;
+}
+
+#Bruna { 
+    display: none;
+}
+
+#setaesquerda {
+    display: none;
+
+
+ }
+ #divmrm {
+    display: grid;
+grid-auto-flow: column;
+columns: centro;
+}
+
+.seta {
+margin :60px 0px;
+cursor: pointer;
+
+}
+
+.seta:hover{
+    transform: translate(-10px);
+    transition-duration: 0,5;
+}
+#setaesquerda{
+    margin: 80px 10px;
+}
+
+
+
+.cards{
+    padding: 25px;}
+
+#textoFormulario{
+    color: #383838;
+    
+}
+#Formulario{
+
+    text-align: center;
+    margin: 40px;
+}
+.input{
+    width: 413px;
+    height: 53px;
+    background:#EAECE5;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px; 
+    padding-left: 10px;
+}
+#button{
+    width: 335px;
+    height: 53px;
+    background:#247BA0;
+    color: #EAECE5;
+    font-size: 20px;  
+    border: 0px;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-weight: bolder;
+}
+button:hover {
+    background-color: #86ceec;
+    color: white;
+transform: translate(-7px);
+box-shadow: 0px 15px 20px #05103081;
+transition-duration: 5px;
+}
